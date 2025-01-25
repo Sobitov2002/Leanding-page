@@ -61,7 +61,7 @@ const footer = ref<HTMLElement | null>(null);
                                 Topik yuqori ball olish va Koreya
                             </p>
                             <h1
-                                class="lg:text-[80.27px] mb-8 md:text-[60px] leading-[50px] w-[80%] m-auto text-[49.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
+                                class="lg:text-[80.27px] mb-8 md:text-[60px] leading-[40px] w-[80%] m-auto text-[40.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
                                 MADINA QODIROVA
                             </h1>
                         </div>
