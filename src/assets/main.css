@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-shadow-custom {
+        text-shadow: 0px 2.86px 2.86px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.con {
+    width: 1100px;
+    margin: auto;
+}
+
+.custom- {
+    width: 100%;
+    max-width: 1200px;
+    /* Maksimal kenglik */
+    margin-left: auto;
+    /* O'ng va chap tomondan markazlash */
+    margin-right: auto;
+    padding-left: 15px;
+    /* Ichki bo'shliq */
+    padding-right: 15px;
+}
+
+.oswald {
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freestyle';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Freestyle Script Regular'), url('./Fonts/FREESCPT.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('./Fonts/gilroy-bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: bold;
+}
+
+.prise-img {
+    background-image: url(https://ik.imagekit.io/vtroph5l9/Product/Group%201%204.png?updatedAt=1737192663032);
+    background-color: #ED9EA1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
