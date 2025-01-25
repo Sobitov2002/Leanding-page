@@ -4,19 +4,19 @@
             Joyingizni band qilish uchun ma'lumotlaringizni yuboring!
         </h1>
         <div>
-            <label class="block mt-2" for="firstName">Ismingizni kiriting</label>
+            <label class="block text-left mt-2" for="firstName">Ismingizni kiriting</label>
             <input required v-model="formData.firstName" id="firstName" type="text"
                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Ism" :disabled="isLoading" />
         </div>
         <div>
-            <label class="block mt-2" for="lastName">Familyangizni kiriting</label>
+            <label class="block mt-2 text-left" for="lastName">Familyangizni kiriting</label>
             <input required v-model="formData.lastName" id="lastName" type="text"
                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="Familya" :disabled="isLoading" />
         </div>
         <div class="mt-3">
-            <label class="block text-gray-700 mt-2" for="phoneNumber">Telefon raqamingiz</label>
+            <label class="block text-left text-gray-700 mt-2" for="phoneNumber">Telefon raqamingiz</label>
             <input required v-model="formData.phoneNumber" id="phoneNumber" type="number"
                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="+998" :disabled="isLoading" />
