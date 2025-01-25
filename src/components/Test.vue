@@ -38,8 +38,8 @@ const footer = ref<HTMLElement | null>(null);
                         </div>
                     </div>
                     <div
-                        class="flex items-center justify-center  md:w-full md:left-0 mb-4 md:mt-[121px] md:block absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20 md:mx-0">
-                        <div class="w-[351.66px] shadow-[ -2.01px_4.09px_6.23px ] md:w-auto">
+                        class="flex md:hidden items-center justify-center  md:w-full md:left-0 mb-4 md:mt-[121px]  absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20 md:mx-0">
+                        <div class="w-[351.66px] flex justify-center md:w-auto">
                             <Dialog />
                         </div>
                     </div>
@@ -55,13 +55,13 @@ const footer = ref<HTMLElement | null>(null);
                         </div>
 
                         <!-- Matnni pastga joylashtirish -->
-                        <div class="absolute md:bottom-16 bottom-[150px] w-[90%] m-auto md:w-full ">
+                        <div class="absolute md:bottom-16 bottom-[90px] w-[80%] m-auto md:w-full ">
                             <p
-                                class="text-[33.16px] md:text-[60px] w-[90%] m-auto text-[#fff] leading-[40.22px] font-[Freestyle]">
+                                class="text-[33.16px] md:text-[60px] w-[80%] m-auto text-[#fff] leading-[40.22px] font-[Freestyle]">
                                 Topik yuqori ball olish va Koreya
                             </p>
                             <h1
-                                class="md:text-[90.27px] w-[90%] m-auto text-[49.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
+                                class="lg:text-[90.27px] md:text-[60px] w-[80%] m-auto text-[49.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
                                 MADINA QODIROVA
                             </h1>
                         </div>
