@@ -23,7 +23,7 @@ const footer = ref<HTMLElement | null>(null);
                             qadam ma qadam
                         </h1>
                         <p
-                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[90%] m-auto text-[17.67px] lg:text-[42.73px] md:text-[40px] md:leading-[42.9px] leading-[24.35px] text-white font-[gilroy] text-center">
+                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[90%] m-auto text-[16.67px] lg:text-[42.73px] md:text-[40px] md:leading-[42.9px] leading-[24.35px] text-white font-[gilroy] text-center">
                             Master klassga qatnashish uchun xavoladan o‘ting
                         </p>
                         <span
@@ -57,11 +57,11 @@ const footer = ref<HTMLElement | null>(null);
                         <!-- Matnni pastga joylashtirish -->
                         <div class="absolute md:bottom-16 bottom-[50px] w-[80%] m-auto md:w-full ">
                             <p
-                                class="text-[40.16px] md:text-[60px] w-[80%] m-auto text-[#fff] leading-[30.22px] font-[Freestyle]">
+                                class="text-[40.16px] md:text-[60px] w-[80%] m-auto text-[#fff] leading-[25.22px] font-[Freestyle]">
                                 Topik yuqori ball olish va Koreya
                             </p>
                             <h1
-                                class="lg:text-[80.27px] mb-8 md:text-[60px] leading-[40px] w-[80%] m-auto text-[40.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
+                                class="lg:text-[80.27px] mb-7 md:text-[60px] leading-[40px] w-[80%] m-auto text-[40.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
                                 MADINA QODIROVA
                             </h1>
                         </div>
