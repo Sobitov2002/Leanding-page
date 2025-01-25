@@ -9,9 +9,9 @@ const footer = ref<HTMLElement | null>(null);
 </script>
 
 <template>
-    <div class="prise-img h-screen  w-full py-10 z-10 relative">
+    <div class="prise-img min-h-screen  w-full py-10 z-10 relative">
         <div class="absolute bottom-0 left-0 w-full h-full z-[-1]">
-            <img class="w-auto  sm:h-[800px] md:h-[692px] lg:h-[790px] mx-auto absolute bottom-0 left-1/2 transform -translate-x-1/2"
+            <img class="w-auto  sm:h-[800px] md:h-[692px] h-[50%] lg:h-[790px] mx-auto absolute bottom-0 left-1/2 transform -translate-x-1/2"
                 src="https://ik.imagekit.io/vtroph5l9/Product/s.png?updatedAt=1737760939112" alt="Banner Img">
         </div>
 
@@ -22,7 +22,7 @@ const footer = ref<HTMLElement | null>(null);
             <div class="">
                 <div class="grid md:grid-cols-2 w-[90%]  sm:container m-auto grid-cols-1 relative  md:top-14 top-0 ">
                     <h1
-                        class="text-white font-[Freestyle] lg:text-[55px] md:text-[50px] text-[35px] md:block  md:text-start text-center ">
+                        class="text-white font-[Freestyle] lg:text-[55px] md:text-[50px] text-[31px] md:block  md:text-start text-center ">
                         0 dan 2 oyda TOPIK 2 qadam va qadam </h1>
 
                     <h1 class="text-white  font-[Freestyle] text-[35px] md:text-[50px] md:block hidden text-end ">
@@ -32,7 +32,8 @@ const footer = ref<HTMLElement | null>(null);
 
                     <!-- Next section -->
                     <div class="md:flex  md:justify-between p-0 justify-end -bottom-5 ">
-                        <h1 class="text-[#A43D3F]  font-[oswald] text-[55px]  font-bold  md:text-[90.27px] text-end  ">
+                        <h1
+                            class="text-[#A43D3F]  font-[oswald] text-[55px]  font-bold   md:text-[90.27px] text-center  ">
                             MADINA</h1>
                         <div></div>
                         <h1
@@ -41,9 +42,11 @@ const footer = ref<HTMLElement | null>(null);
                     </div>
                     <!-- Next section -->
 
-                    <div class="flex relative md:justify-between  justify-end md:bottom-10 bottom-5  ">
-                        <h1 class="text-[#A43D3F]  font-[oswald] font-bold md:text-[90.27px] text-end  text-[55px]">
-                            QODIROVA</h1>
+                    <div class="flex relative md:justify-between  justify-center md:bottom-10 bottom-5  ">
+                        <h1 class="text-[#A43D3F] font-[oswald] font-bold md:text-[90.27px] text-[55px] text-center">
+                            QODIROVA
+                        </h1>
+
                         <div></div>
                         <h1
                             class="text-[#A43D3F]  top-10 font-[oswald] font-bold lg:text-[90.27px] text-end hidden md:block text-[75px]">
@@ -56,7 +59,7 @@ const footer = ref<HTMLElement | null>(null);
         </div>
 
         <!-- Next section -->
-        <div class="flex md:justify-center justify-end md:mt-20 -mt-5">
+        <div class="flex justify-center md:mt-20 -mt-5">
 
             <div class=" sm:w-auto">
                 <p
@@ -71,8 +74,7 @@ const footer = ref<HTMLElement | null>(null);
                 Bepul Master-klassga taklif qilaman
             </h1>
         </div>
-        <div
-            class="flex justify-center items-center absolute  left-1/2 bottom-5 transform -translate-x-1/2  w-full">
+        <div class="flex justify-center items-center absolute  left-1/2 bottom-5 transform -translate-x-1/2  w-full">
             <Dialog />
         </div>
 
