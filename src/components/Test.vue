@@ -23,7 +23,7 @@ const footer = ref<HTMLElement | null>(null);
                             qadam ma qadam
                         </h1>
                         <p
-                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[95%] text-[19.67px] lg:text-[42.73px] md:text-[40px] md:leading-[42.9px] leading-[24.35px] text-white font-[gilroy] text-center">
+                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[95%] text-[17.67px] lg:text-[42.73px] md:text-[40px] md:leading-[42.9px] leading-[24.35px] text-white font-[gilroy] text-center">
                             Master klassga qatnashish uchun xavoladan o‘ting
                         </p>
                         <span
@@ -50,7 +50,7 @@ const footer = ref<HTMLElement | null>(null);
                     <div
                         class="absolute md:relative lg:-bottom-[25px] md:-bottom-[125px] bottom-0 z-10 w-full left-1/2 transform -translate-x-1/2 md:right-auto right-0">
                         <div class="relative flex justify-center">
-                            <img class="w-auto md:h-[692px] h-[395.53px] lg:h-[790px]"
+                            <img class="w-auto md:h-[692px] h-[375.53px] lg:h-[790px]"
                                 src="../assets/image/Layer 12 1.png" alt="Banner Img">
                         </div>
 
@@ -68,7 +68,7 @@ const footer = ref<HTMLElement | null>(null);
 
                         <div style="opacity: 0.2;" class="absolute bottom-[300px] text-center lg:left-[200px] md:left-[10px] inset-0 flex items-center justify-center 
          drop-shadow-[0_8.73px_8.73px_#000000] text-opacity-70 
-         lg:text-[100px] xl:text-[118px] md:text-[70px] md:leading-[70px] lg:leading-[120px] text-[87.91px] font-[oswald] 
+         lg:text-[100px] xl:text-[118px] md:text-[70px] md:leading-[70px] lg:leading-[120px] text-[77.91px] font-[oswald] 
          leading-[100px] font-bold -z-20 text-white">
                             MADINA QODIROVA
                         </div>
