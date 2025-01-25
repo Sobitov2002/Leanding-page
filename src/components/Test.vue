@@ -1,91 +1,94 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import Dialog from './Dialog.vue'
-// import Price from '@/components/price/Price.vue'
+import Dialog from './Dialog.vue';
 
 const footer = ref<HTMLElement | null>(null);
-
-
 </script>
 
 <template>
-    <div class="prise-img min-h-screen  w-full py-10 z-10 relative">
-        <div class="absolute bottom-0 left-0 w-full h-full z-[-1]">
-            <img class="w-auto  sm:h-[700px] md:h-[692px] h-[50%] lg:h-[790px] mx-auto absolute bottom-0 left-1/2 transform -translate-x-1/2"
-                src="https://ik.imagekit.io/vtroph5l9/Product/s.png?updatedAt=1737760939112" alt="Banner Img">
-        </div>
-
-        <div class="">
-            <!-- First section -->
-
-            <!-- Next section -->
-            <div class="">
-                <div class="grid md:grid-cols-2 w-[90%]  sm:container m-auto grid-cols-1 relative  md:top-14 top-0 ">
-                    <h1
-                        class="text-white font-[Freestyle] lg:text-[55px] md:text-[50px] text-[60px] md:block md:text-start text-center tracking-wide leading-10 md:leading-normal">
-                        0 dan 2 oyda TOPIK 2 qadam va qadam
-                    </h1>
-                    <h1
-                        class="text-white  font-[Freestyle] text-[60px] md:text-[55px] md:block hidden text-end leading-10 md:leading-normal ">
-                        0 dan 2 oyda TOPIK 2 qadam va qadam </h1>
-                </div>
-                <div class="md:container w-[90%] m-auto ">
-
-                    <!-- Next section -->
-                    <div class="md:flex  md:justify-between p-0 justify-end -bottom-15 mt-5 ">
-                        <h1
-                            class="text-[#A43D3F]  font-[oswald] text-[30px]  font-bold   md:text-[90.27px] text-center  ">
-                            MADINA</h1>
-                        <div></div>
-                        <h1
-                            class="text-[#A43D3F] hidden md:block  font-[oswald] text-[60px]  font-bold  md:text-[90.27px] text-end">
-                            MADINA</h1>
+    <div class="prise-img min-h-screen w-full pt-10 z-10">
+        <div class="container px-1">
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
+                <div class="md:mt-[120px]">
+                    <div class="w-[171.68px] md:w-[362px] bg-white rounded-[7.52px] ">
+                        <div
+                            class="text-[#CB7C7E] text-start font-[gilroy] p-[7px] md:p-5 leading-[24.3px]  text-[19.63px] md:text-[41.39px] drop-shadow-lg   ">
+                            1,2,3 fevral 21:00
+                        </div>
                     </div>
-                    <!-- Next section -->
-
-                    <div class="flex relative md:justify-between  justify-center md:bottom-10 bottom-5  ">
-                        <h1 class="text-[#A43D3F] font-[oswald] font-bold md:text-[90.27px] text-[32px] text-center">
-                            QODIROVA
+                    <div class="mt-[16px] lg:mt-[28px] relative">
+                        <h1
+                            class="font-[gilroy] md:text-start drop-shadow-[0_1.73px_1.73px_#000000] leading-[40.7px] md:leading-[76.05px] text-white lg:text-[61.43px] md:text-[60px] text-center text-[32.88px]">
+                            0 dan 2 oyda TOPIK 2
+                            qadam ma qadam
                         </h1>
-
-                        <div></div>
-                        <h1
-                            class="text-[#A43D3F]  top-10 font-[oswald] font-bold lg:text-[90.27px] text-end hidden md:block text-[75px]">
-                            QODIROVA</h1>
+                        <p
+                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[95%] text-[19.67px] md:text-[42.73px] md:leading-[52.9px] leading-[24.35px] text-white font-[gilroy] text-center">
+                            Master klassga qatnashish uchun xavoladan o‘ting
+                        </p>
+                        <span
+                            class="text-[50.22px]  drop-shadow-[0_3.89px_3.89px]  lg:text-[86.04px] md:text-[50px]  md:leading-[101.34px] absolute right-20 md:-bottom-16 text-[#A43D3F] leading-[40.22px] font-[Freestyle]">Master
+                            klass
+                        </span>
+                    </div>
+                    <div
+                        class=" items-center md:block hidden  justify-center w-full md:left-0 mb-2 md:mt-[121px] md:w-auto md:mx-0">
+                        <div class="w-full md:w-auto">
+                            <Dialog />
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center justify-center  md:w-full md:left-0 mb-4 md:mt-[121px] md:block absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20 md:mx-0">
+                        <div class="w-[351.66px] shadow-[ -2.01px_4.09px_6.23px ] md:w-auto">
+                            <Dialog />
+                        </div>
                     </div>
 
 
                 </div>
+                <div class="w-[90%] ">
+                    <div
+                        class="absolute md:relative md:-bottom-[110px] bottom-0 z-10 w-full left-1/2 transform -translate-x-1/2 md:right-auto right-0">
+                        <div class="relative flex justify-center">
+                            <img class="w-auto md:h-[692px] h-[467.53px] lg:h-[790px]"
+                                src="../assets/image/Layer 12 1.png" alt="Banner Img">
+                        </div>
+
+                        <!-- Matnni pastga joylashtirish -->
+                        <div class="absolute md:bottom-16 bottom-[150px] w-[90%] m-auto md:w-full ">
+                            <p
+                                class="text-[33.16px] md:text-[60px] w-[90%] m-auto text-[#fff] leading-[40.22px] font-[Freestyle]">
+                                Topik yuqori ball olish va Koreya
+                            </p>
+                            <h1
+                                class="md:text-[90.27px] w-[90%] m-auto text-[49.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
+                                MADINA QODIROVA
+                            </h1>
+                        </div>
+
+                        <div style="opacity: 0.2;" class="absolute bottom-[300px] text-center md:left-[200px] inset-0 flex items-center justify-center 
+         drop-shadow-[0_8.73px_8.73px_#000000] text-opacity-70 
+         lg:text-[178px] md:text-[50px] md:leading-[190px] text-[87.91px] font-[oswald] 
+         leading-[100px] font-bold -z-20 text-white">
+                            MADINA QODIROVA
+                        </div>
+                    </div>
+
+                </div>
+
+
+
             </div>
         </div>
-
-        <!-- Next section -->
-        <div class="flex justify-center md:mt-20 -mt-6">
-
-            <div class=" sm:w-auto">
-                <p
-                    class="text-[#de878a] block   rounded-[20.14px] px-5 py-1 bg-white md:text-[18.53px] lg:text-[45px] sm:text-[20px] text-[22px] cursor-pointer font-[gilroy] shadow-lg text-shadow">
-                    1,2,3 fevral 21:00
-                </p>
-            </div>
-
-        </div>
-        <div class="flex   justify-center mt-7">
-            <h1 class="font-[gilroy] text-white md:text-[55px] leading-8 text-center text-[28px] ">
-                Bepul Master-klassga taklif qilaman
-            </h1>
-        </div>
-        <div class="flex justify-center items-center absolute  left-1/2 bottom-5 transform -translate-x-1/2  w-full">
-            <Dialog />
-        </div>
-
-
-
     </div>
-
 </template>
 
 <style scoped>
+.myfont {
+    text-shadow: 0 0.89px 0.89px 0;
+}
 
- 
+.text-shadow {
+    text-shadow: 0 0.89px 0.89px 0;
+}
 </style>
