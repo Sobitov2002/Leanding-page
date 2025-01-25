@@ -18,12 +18,12 @@ const footer = ref<HTMLElement | null>(null);
                     </div>
                     <div class="mt-[16px] lg:mt-[28px] relative">
                         <h1
-                            class="font-[gilroy] md:text-start drop-shadow-[0_1.73px_1.73px_#000000] leading-[40.7px] md:leading-[66.05px] text-white lg:text-[61.43px] md:text-[50px] ld:text-[60px] text-center text-[32.88px]">
+                            class="font-[gilroy] md:text-start drop-shadow-[0_1.73px_1.73px_#000000] leading-[30.7px] md:leading-[60.05px] text-white lg:text-[61.43px] md:text-[50px] ld:text-[60px] text-center text-[32.88px]">
                             0 dan 2 oyda TOPIK 2
                             qadam ma qadam
                         </h1>
                         <p
-                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[95%] text-[19.67px] lg:text-[42.73px] md:text-[40px] md:leading-[32.9px] leading-[24.35px] text-white font-[gilroy] text-center">
+                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[95%] text-[19.67px] lg:text-[42.73px] md:text-[40px] md:leading-[42.9px] leading-[24.35px] text-white font-[gilroy] text-center">
                             Master klassga qatnashish uchun xavoladan o‘ting
                         </p>
                         <span
@@ -48,7 +48,7 @@ const footer = ref<HTMLElement | null>(null);
                 </div>
                 <div class="w-[90%] ">
                     <div
-                        class="absolute md:relative md:-bottom-[110px] bottom-0 z-10 w-full left-1/2 transform -translate-x-1/2 md:right-auto right-0">
+                        class="absolute md:relative lg:-bottom-[25px] md:-bottom-[125px] bottom-0 z-10 w-full left-1/2 transform -translate-x-1/2 md:right-auto right-0">
                         <div class="relative flex justify-center">
                             <img class="w-auto md:h-[692px] h-[467.53px] lg:h-[790px]"
                                 src="../assets/image/Layer 12 1.png" alt="Banner Img">
@@ -61,14 +61,14 @@ const footer = ref<HTMLElement | null>(null);
                                 Topik yuqori ball olish va Koreya
                             </p>
                             <h1
-                                class="lg:text-[90.27px] md:text-[60px] w-[80%] m-auto text-[49.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
+                                class="lg:text-[80.27px] md:text-[60px] w-[80%] m-auto text-[49.88px] text-white font-[oswald] font-bold md:leading-[100.78px]">
                                 MADINA QODIROVA
                             </h1>
                         </div>
 
-                        <div style="opacity: 0.2;" class="absolute bottom-[300px] text-center md:left-[200px] inset-0 flex items-center justify-center 
+                        <div style="opacity: 0.2;" class="absolute bottom-[300px] text-center lg:left-[200px] md:left-[10px] inset-0 flex items-center justify-center 
          drop-shadow-[0_8.73px_8.73px_#000000] text-opacity-70 
-         lg:text-[118px]  md:text-[50px] md:leading-[170px] text-[87.91px] font-[oswald] 
+         lg:text-[100px] xl:text-[118px] md:text-[70px] md:leading-[70px] lg:leading-[120px] text-[87.91px] font-[oswald] 
          leading-[100px] font-bold -z-20 text-white">
                             MADINA QODIROVA
                         </div>
