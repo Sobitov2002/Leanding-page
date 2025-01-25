@@ -53,13 +53,13 @@ const footer = ref<HTMLElement | null>(null);
                             QODIROVA</h1>
                     </div>
 
-                    git push -u origin main
+                
                 </div>
             </div>
         </div>
 
         <!-- Next section -->
-        <div class="flex md:justify-center justify-end">
+        <div class="flex md:justify-center justify-end md:mt-20 mt-0">
 
             <div class=" sm:w-auto">
                 <p
@@ -71,7 +71,7 @@ const footer = ref<HTMLElement | null>(null);
         </div>
         <div class="flex  md:justify-center justify-end">
             <h1 class="font-[gilroy] text-white md:text-[55px] text-end text-[35px] ">
-                Bepul Master klassgataklif qilaman
+                Bepul Master-klassga taklif qilaman
             </h1>
         </div>
         <div class="flex justify-center">
