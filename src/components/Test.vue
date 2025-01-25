@@ -50,7 +50,7 @@ const footer = ref<HTMLElement | null>(null);
                     <div
                         class="absolute md:relative lg:-bottom-[25px] md:-bottom-[125px] bottom-0 z-10 w-full left-1/2 transform -translate-x-1/2 md:right-auto right-0">
                         <div class="relative flex justify-center">
-                            <img class="w-auto md:h-[692px] h-[375.53px] lg:h-[790px]"
+                            <img class="w-auto md:h-[692px] h-[355.53px] lg:h-[790px]"
                                 src="../assets/image/Layer 12 1.png" alt="Banner Img">
                         </div>
 
@@ -66,7 +66,7 @@ const footer = ref<HTMLElement | null>(null);
                             </h1>
                         </div>
 
-                        <div style="opacity: 0.2;" class="absolute bottom-[250px] text-center lg:left-[200px] md:left-[10px] inset-0 flex items-center justify-center 
+                        <div style="opacity: 0.2;" class="absolute bottom-[220px] text-center lg:left-[200px] md:left-[10px] inset-0 flex items-center justify-center 
          drop-shadow-[0_8.73px_8.73px_#000000] text-opacity-70 
          lg:text-[100px] xl:text-[118px] md:text-[70px] md:leading-[70px] lg:leading-[120px] text-[77.91px] font-[oswald] 
          leading-[100px] font-bold -z-20 text-white">
