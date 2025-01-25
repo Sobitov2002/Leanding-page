@@ -27,7 +27,7 @@ const footer = ref<HTMLElement | null>(null);
                             Master klassga qatnashish uchun xavoladan o‘ting
                         </p>
                         <span
-                            class="text-[50.22px]  drop-shadow-[0_3.89px_3.89px]  lg:text-[86.04px] md:text-[50px]  md:leading-[101.34px] absolute right-20 md:-bottom-16 text-[#A43D3F] leading-[40.22px] font-[Freestyle]">Master
+                            class="text-[50.22px]  drop-shadow-[0_3.89px_3.89px]  lg:text-[86.04px] md:text-[50px]  md:leading-[101.34px] absolute md:right-20 right-5 md:-bottom-16 text-[#A43D3F] leading-[40.22px] font-[Freestyle]">Master
                             klass
                         </span>
                     </div>
