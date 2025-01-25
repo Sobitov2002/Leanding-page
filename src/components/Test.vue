@@ -11,7 +11,7 @@ const footer = ref<HTMLElement | null>(null);
 <template>
     <div class="prise-img min-h-screen  w-full py-10 z-10 relative">
         <div class="absolute bottom-0 left-0 w-full h-full z-[-1]">
-            <img class="w-auto  sm:h-[800px] md:h-[692px] h-[50%] lg:h-[790px] mx-auto absolute bottom-0 left-1/2 transform -translate-x-1/2"
+            <img class="w-auto  sm:h-[700px] md:h-[692px] h-[50%] lg:h-[790px] mx-auto absolute bottom-0 left-1/2 transform -translate-x-1/2"
                 src="https://ik.imagekit.io/vtroph5l9/Product/s.png?updatedAt=1737760939112" alt="Banner Img">
         </div>
 
@@ -22,16 +22,17 @@ const footer = ref<HTMLElement | null>(null);
             <div class="">
                 <div class="grid md:grid-cols-2 w-[90%]  sm:container m-auto grid-cols-1 relative  md:top-14 top-0 ">
                     <h1
-                        class="text-white font-[Freestyle] lg:text-[55px] md:text-[50px] text-[60px] md:block md:text-start text-center tracking-wide leading-10">
+                        class="text-white font-[Freestyle] lg:text-[55px] md:text-[50px] text-[60px] md:block md:text-start text-center tracking-wide leading-10 md:leading-normal">
                         0 dan 2 oyda TOPIK 2 qadam va qadam
                     </h1>
-                    <h1 class="text-white  font-[Freestyle] text-[60px] md:text-[55px] md:block hidden text-end ">
+                    <h1
+                        class="text-white  font-[Freestyle] text-[60px] md:text-[55px] md:block hidden text-end leading-10 md:leading-normal ">
                         0 dan 2 oyda TOPIK 2 qadam va qadam </h1>
                 </div>
                 <div class="md:container w-[90%] m-auto ">
 
                     <!-- Next section -->
-                    <div class="md:flex  md:justify-between p-0 justify-end -bottom-15 ">
+                    <div class="md:flex  md:justify-between p-0 justify-end -bottom-15 mt-5 ">
                         <h1
                             class="text-[#A43D3F]  font-[oswald] text-[30px]  font-bold   md:text-[90.27px] text-center  ">
                             MADINA</h1>
@@ -69,8 +70,8 @@ const footer = ref<HTMLElement | null>(null);
             </div>
 
         </div>
-        <div class="flex   justify-center">
-            <h1 class="font-[gilroy] text-white md:text-[55px] text-center leading-8 text-[28px] ">
+        <div class="flex   justify-center mt-7">
+            <h1 class="font-[gilroy] text-white md:text-[55px] leading-8 text-center text-[28px] ">
                 Bepul Master-klassga taklif qilaman
             </h1>
         </div>
