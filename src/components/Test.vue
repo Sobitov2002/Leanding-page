@@ -70,7 +70,7 @@ const footer = ref<HTMLElement | null>(null);
 
         </div>
         <div class="flex   justify-center">
-            <h1 class="font-[gilroy] text-white md:text-[55px] text-center text-[28px] ">
+            <h1 class="font-[gilroy] text-white md:text-[55px] text-center leading-8 text-[28px] ">
                 Bepul Master-klassga taklif qilaman
             </h1>
         </div>
