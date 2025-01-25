@@ -18,12 +18,12 @@ const footer = ref<HTMLElement | null>(null);
                     </div>
                     <div class="mt-[16px] lg:mt-[28px] relative">
                         <h1
-                            class="font-[gilroy] md:text-start drop-shadow-[0_1.73px_1.73px_#000000] leading-[40.7px] md:leading-[76.05px] text-white lg:text-[61.43px] md:text-[60px] text-center text-[32.88px]">
+                            class="font-[gilroy] md:text-start drop-shadow-[0_1.73px_1.73px_#000000] leading-[40.7px] md:leading-[66.05px] text-white lg:text-[61.43px] md:text-[50px] ld:text-[60px] text-center text-[32.88px]">
                             0 dan 2 oyda TOPIK 2
                             qadam ma qadam
                         </h1>
                         <p
-                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[95%] text-[19.67px] md:text-[42.73px] md:leading-[52.9px] leading-[24.35px] text-white font-[gilroy] text-center">
+                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[95%] text-[19.67px] lg:text-[42.73px] md:text-[40px] md:leading-[32.9px] leading-[24.35px] text-white font-[gilroy] text-center">
                             Master klassga qatnashish uchun xavoladan o‘ting
                         </p>
                         <span
@@ -38,7 +38,7 @@ const footer = ref<HTMLElement | null>(null);
                         </div>
                     </div>
                     <div
-                        class="flex md:hidden items-center justify-center  md:w-full md:left-0 mb-4 md:mt-[121px]  absolute bottom-0 left-1/2 transform -translate-x-1/2 z-20 md:mx-0">
+                        class="flex md:hidden items-center justify-center  md:w-full md:left-0 mb-4 md:mt-[121px]  absolute bottom-5 left-1/2 transform -translate-x-1/2 z-20 md:mx-0">
                         <div class="w-[351.66px] flex justify-center md:w-auto">
                             <Dialog />
                         </div>
@@ -57,7 +57,7 @@ const footer = ref<HTMLElement | null>(null);
                         <!-- Matnni pastga joylashtirish -->
                         <div class="absolute md:bottom-16 bottom-[90px] w-[80%] m-auto md:w-full ">
                             <p
-                                class="text-[33.16px] md:text-[60px] w-[80%] m-auto text-[#fff] leading-[40.22px] font-[Freestyle]">
+                                class="text-[40.16px] md:text-[60px] w-[80%] m-auto text-[#fff] leading-[40.22px] font-[Freestyle]">
                                 Topik yuqori ball olish va Koreya
                             </p>
                             <h1
@@ -68,7 +68,7 @@ const footer = ref<HTMLElement | null>(null);
 
                         <div style="opacity: 0.2;" class="absolute bottom-[300px] text-center md:left-[200px] inset-0 flex items-center justify-center 
          drop-shadow-[0_8.73px_8.73px_#000000] text-opacity-70 
-         lg:text-[178px] md:text-[50px] md:leading-[190px] text-[87.91px] font-[oswald] 
+         lg:text-[118px]  md:text-[50px] md:leading-[170px] text-[87.91px] font-[oswald] 
          leading-[100px] font-bold -z-20 text-white">
                             MADINA QODIROVA
                         </div>
