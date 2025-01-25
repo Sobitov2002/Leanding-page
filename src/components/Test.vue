@@ -10,7 +10,7 @@ const footer = ref<HTMLElement | null>(null);
         <div class="container px-1">
             <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
                 <div class="md:mt-[120px]">
-                    <div class="w-[171.68px] md:w-[362px] bg-white rounded-[7.52px] ">
+                    <div class="w-[171.68px] md:w-[362px] m-auto bg-white rounded-[7.52px] ">
                         <div
                             class="text-[#CB7C7E] text-start font-[gilroy] p-[7px] md:p-5 leading-[24.3px]  text-[19.63px] md:text-[41.39px] drop-shadow-lg   ">
                             1,2,3 fevral 21:00
