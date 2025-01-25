@@ -22,18 +22,18 @@ const footer = ref<HTMLElement | null>(null);
             <div class="">
                 <div class="grid md:grid-cols-2 w-[90%]  sm:container m-auto grid-cols-1 relative  md:top-14 top-0 ">
                     <h1
-                        class="text-white font-[Freestyle] lg:text-[55px] md:text-[50px] text-[31px] md:block  md:text-start text-center ">
-                        0 dan 2 oyda TOPIK 2 qadam va qadam </h1>
-
-                    <h1 class="text-white  font-[Freestyle] text-[35px] md:text-[50px] md:block hidden text-end ">
+                        class="text-white font-[Freestyle] lg:text-[55px] md:text-[50px] text-[60px] md:block md:text-start text-center tracking-wide leading-10">
+                        0 dan 2 oyda TOPIK 2 qadam va qadam
+                    </h1>
+                    <h1 class="text-white  font-[Freestyle] text-[60px] md:text-[55px] md:block hidden text-end ">
                         0 dan 2 oyda TOPIK 2 qadam va qadam </h1>
                 </div>
                 <div class="md:container w-[90%] m-auto ">
 
                     <!-- Next section -->
-                    <div class="md:flex  md:justify-between p-0 justify-end -bottom-5 ">
+                    <div class="md:flex  md:justify-between p-0 justify-end -bottom-15 ">
                         <h1
-                            class="text-[#A43D3F]  font-[oswald] text-[55px]  font-bold   md:text-[90.27px] text-center  ">
+                            class="text-[#A43D3F]  font-[oswald] text-[30px]  font-bold   md:text-[90.27px] text-center  ">
                             MADINA</h1>
                         <div></div>
                         <h1
@@ -43,7 +43,7 @@ const footer = ref<HTMLElement | null>(null);
                     <!-- Next section -->
 
                     <div class="flex relative md:justify-between  justify-center md:bottom-10 bottom-5  ">
-                        <h1 class="text-[#A43D3F] font-[oswald] font-bold md:text-[90.27px] text-[55px] text-center">
+                        <h1 class="text-[#A43D3F] font-[oswald] font-bold md:text-[90.27px] text-[32px] text-center">
                             QODIROVA
                         </h1>
 
@@ -59,7 +59,7 @@ const footer = ref<HTMLElement | null>(null);
         </div>
 
         <!-- Next section -->
-        <div class="flex justify-center md:mt-20 -mt-5">
+        <div class="flex justify-center md:mt-20 -mt-6">
 
             <div class=" sm:w-auto">
                 <p
@@ -70,7 +70,7 @@ const footer = ref<HTMLElement | null>(null);
 
         </div>
         <div class="flex   justify-center">
-            <h1 class="font-[gilroy] text-white md:text-[55px] text-center text-[30px] ">
+            <h1 class="font-[gilroy] text-white md:text-[55px] text-center text-[28px] ">
                 Bepul Master-klassga taklif qilaman
             </h1>
         </div>
