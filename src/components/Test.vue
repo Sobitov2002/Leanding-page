@@ -23,7 +23,7 @@ const footer = ref<HTMLElement | null>(null);
                             qadam ma qadam
                         </h1>
                         <p
-                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[95%] text-[17.67px] lg:text-[42.73px] md:text-[40px] md:leading-[42.9px] leading-[24.35px] text-white font-[gilroy] text-center">
+                            class="drop-shadow-[0_1.73px_1.73px_#000000] md:text-start md:mt-[40px] w-[90%] m-auto text-[17.67px] lg:text-[42.73px] md:text-[40px] md:leading-[42.9px] leading-[24.35px] text-white font-[gilroy] text-center">
                             Master klassga qatnashish uchun xavoladan o‘ting
                         </p>
                         <span
