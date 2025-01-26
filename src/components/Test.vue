@@ -9,7 +9,7 @@ const footer = ref<HTMLElement | null>(null);
     <div class="prise-img min-h-screen w-full pt-10 z-10">
         <div class="container px-1">
             <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
-                <div class="md:mt-[110px]">
+                <div class="md:mt-[110px] w-[90%] m-auto ">
                     <div class="w-[171.68px] md:w-[362px] m-auto bg-white rounded-[7.52px] ">
                         <div
                             class="text-[#CB7C7E] text-start font-[gilroy] p-[7px] md:p-5 leading-[24.3px]  text-[19.63px] md:text-[41.39px] drop-shadow-lg   ">
@@ -68,7 +68,7 @@ const footer = ref<HTMLElement | null>(null);
 
                         <div style="opacity: 0.2;" class="absolute bottom-[220px] text-center lg:left-[200px] md:left-[10px] inset-0 flex items-center justify-center 
          drop-shadow-[0_8.73px_8.73px_#000000] text-opacity-70 
-         lg:text-[100px] xl:text-[118px] md:text-[70px] md:leading-[70px] lg:leading-[120px] text-[77.91px] font-[oswald] 
+         lg:text-[10px] xl:text-[180px] md:text-[70px] md:leading-[70px] lg:leading-[120px] xl:leading-[150px] text-[77.91px] font-[oswald] 
          leading-[100px] font-bold -z-20 text-white">
                             MADINA QODIROVA
                         </div>

