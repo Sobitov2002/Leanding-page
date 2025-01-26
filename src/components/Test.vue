@@ -12,13 +12,13 @@ const footer = ref<HTMLElement | null>(null);
                 <div class="md:mt-[110px] w-[90%] m-auto ">
                     <div class="w-[171.68px] md:w-[362px] m-auto bg-white rounded-[7.52px] ">
                         <div
-                            class="text-[#CB7C7E] text-start font-[gilroy] p-[7px] md:p-5 leading-[24.3px]  text-[19.63px] md:text-[41.39px] drop-shadow-lg   ">
+                            class="text-[#CB7C7E] text-start font-[gilroy] p-[7px] md:p-5 leading-[24.3px]  text-[19.63px] md:text-[40.39px] drop-shadow-lg   ">
                             1,2,3 fevral 20:00
                         </div>
                     </div>
                     <div class="mt-[16px] lg:mt-[28px] relative">
                         <h1
-                            class="font-[gilroy] md:text-start drop-shadow-[0_1.73px_1.73px_#000000] leading-[30.7px] md:leading-[60.05px] text-white lg:text-[61.43px] md:text-[50px] ld:text-[60px] text-center text-[32.88px]">
+                            class="font-[gilroy] md:text-start drop-shadow-[0_1.73px_1.73px_#000000] leading-[30.7px] md:leading-[60.05px] text-white lg:text-[.43px] md:text-[50px] ld:text-[60px] text-center text-[32.88px]">
                             0 dan 3 oyda TOPIK 2
                             qadam ma qadam
                         </h1>
