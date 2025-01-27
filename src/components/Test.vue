@@ -51,7 +51,8 @@ const footer = ref<HTMLElement | null>(null);
                         class="absolute md:relative lg:-bottom-[110px] md:-bottom-[210px] bottom-0 z-10 w-full left-1/2 transform -translate-x-1/2 md:right-auto right-0">
                         <div class="relative flex justify-center">
                             <img class="w-auto md:h-[692px] h-[355.53px] lg:h-[790px]"
-                                src="../assets/image/Layer 12 1.png" alt="Banner Img">
+                                src="https://ik.imagekit.io/vtroph5l9/Product/s.png?updatedAt=1737760939112"
+                                alt="Banner Img">
                         </div>
 
                         <!-- Matnni pastga joylashtirish -->
