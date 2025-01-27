@@ -48,9 +48,9 @@ const footer = ref<HTMLElement | null>(null);
                 </div>
                 <div class="w-[90%] ">
                     <div
-                        class="absolute md:relative lg:-bottom-[110px] md:-bottom-[210px] bottom-0 z-10 w-full left-1/2 transform -translate-x-1/2 md:right-auto right-0">
+                        class="absolute md:relative lg:bottom-0 md:bottom-0 bottom-0 z-10 w-full left-1/2 transform -translate-x-1/2 md:right-auto right-0">
                         <div class="relative flex justify-center">
-                            <img class="w-auto md:h-[692px] h-[355.53px] lg:h-[790px]"
+                            <img class="w-auto md:h-[692px] h-[355.53px] lg:h-screen object-bottom"
                                 src="https://ik.imagekit.io/vtroph5l9/Product/s.png?updatedAt=1737760939112"
                                 alt="Banner Img">
                         </div>
@@ -67,13 +67,14 @@ const footer = ref<HTMLElement | null>(null);
                             </h1>
                         </div>
 
-                        <div style="opacity: 0.2;" class="absolute bottom-[220px] text-center lg:left-[200px] md:left-[10px] inset-0 flex items-center justify-center 
-         drop-shadow-[0_8.73px_8.73px_#000000] text-opacity-70 
-         lg:text-[10px] xl:text-[180px] md:text-[70px] md:leading-[70px] lg:leading-[120px] xl:leading-[150px] text-[77.91px] font-[oswald] 
-         leading-[100px] font-bold -z-20 text-white">
+                        <div style="opacity: 0.2;" class="absolute bottom-[220px] text-center lg:left-[100px] md:left-[10px] inset-0 flex items-center justify-center 
+  drop-shadow-[0_8.73px_8.73px_#000000] text-opacity-70 
+  lg:text-[10px] xl:text-[180px] md:text-[70px] md:leading-[70px] lg:leading-[120px] xl:leading-[170px] text-[77.91px] font-[oswald] 
+  leading-[100px] font-bold -z-20 text-white">
                             MADINA QODIROVA
                         </div>
                     </div>
+
 
                 </div>
 
